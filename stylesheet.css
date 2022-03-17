@@ -1,0 +1,159 @@
+body{
+  font-family: 'Hiragino Kaku Gothic Pro', 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', sans-serif;
+	font-size: 1em;
+	color: #5F5F5F;
+	background-color: #F7F9FA;
+  margin: 0;
+}
+
+a,a:visited {
+	text-decoration: none;
+	color: #5F5F5F
+}
+
+a:hover {
+	opacity: 0.6;
+	transition: all 0.5s;
+}
+
+header {
+	background-color: #F7F9FA;
+	border-bottom: solid 1px #E9F0F4;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+.header_wrapper {
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	max-width: 1080px;
+	margin: 0 auto;
+
+}
+
+.header_nav a {
+  padding-left: 40px;
+	color: #4686A1;
+}
+
+/*コラムメニューページ*/
+.container{
+  padding: 150px;
+  max-width: 1080px;
+  width: 89%;
+  margin: 0 auto;
+}
+
+.container-head{
+  font-size: 20px;
+  color: #666666;
+  border-bottom: 3px solid #3C8D9F;
+  margin-bottom: 60px;
+}
+
+.contents-list{
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.contents-list li{
+  width: 31.5%;
+  flex: auto auto 30%;
+  margin-bottom: 20px;
+  border: 1px solid #dadada;
+  transition: all .5s;
+}
+
+.contents-list li:hover{
+  cursor: pointer;
+  transform: translateY(-2px);
+  box-shadow: 5px 8px 10px #555555;
+  opacity: 0.8;
+}
+
+.contents-list li:empty{
+  border: none;
+  transform: none;
+  box-shadow: none;
+}
+
+.contents-list img{
+  width: 100%;
+}
+
+.contents-list p{
+  padding: 0 25px;
+  font-size: 19px;
+}
+
+
+/*コラムページ*/
+.container-colum {
+  padding: 150px 250px;
+}
+
+
+.container-colum-title{
+  color: #3C8D9F;
+}
+
+.container-colum-title h1{
+  font-size: 45px;
+}
+
+.container-colum-title h3{
+  font-size: 23px;
+  margin: 0;
+  line-height: 10px;
+}
+
+.contents-colum {
+  margin-top: 20px;
+  padding: 30px 2px;
+  font-size: 21px;
+  border-top: 3px solid #3C8D9F;
+}
+
+.text{
+  text-indent: 2em;
+  line-height: 45px;
+  padding-bottom: 10px;
+}
+
+.contents-colum img{
+  width: 80%;
+  margin: 30px auto;
+}
+
+.colum-img{
+  text-align: center;
+}
+
+.colum06 .colum-img img{
+  width: 50%;
+  display: flex;
+  float: left;
+}
+
+.colum06 .colum-img img:nth-child(2) {
+    margin: 0 10px;
+  }
+
+.colum-backdata{
+  margin-top: 50px;
+  border: 5px double #3C8D9F;
+  padding: 20px 25px;
+}
+
+.colum-backdata h5{
+  font-size: 21px;
+  padding-top: 10px;
+}

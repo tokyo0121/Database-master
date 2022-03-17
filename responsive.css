@@ -1,0 +1,157 @@
+/*タブレット向けレイアウト*/
+@media all and (max-width: 1025px){
+  .header_wrapper {
+		width: 89%;
+		margin: 0 auto;
+	}
+
+  /*コラムメニューページ*/
+  .container{
+    padding: 120px 40px;
+  }
+
+  .container-head{
+    font-size: 15px;
+  }
+
+  .contents-list li{
+    width: 47%;
+    flex: auto auto 50%;
+    margin-bottom: 30px;
+  }
+
+  .contents-list p{
+    padding-left: 10px;
+    font-size: 17px;
+  }
+
+  /*コラムページ*/
+  .container-colum{
+    padding: 100px 70px;
+  }
+
+  .container-colum-title h1{
+    font-size: 37px;
+  }
+
+  .container-colum-title h3{
+    font-size: 20px;
+    margin: 0;
+    line-height: 15px;
+  }
+
+  .container-colum-title p{
+    font-size: 17px;
+  }
+
+  .colum-backdata{
+    line-height: 30px;
+  }
+
+  .colum-backdata span{
+    font-size: 16px;
+  }
+
+  .header_wrapper{
+    max-width: 1000px;
+  }
+}
+
+/*スマホ向けレイアウト*/
+@media all and (max-width: 670px){
+
+  .header_nav {
+		display: none;
+	}
+
+  /*コラムメニューページ*/
+  .container{
+    padding: 100px 0;
+  }
+
+  .container-head{
+    font-size: 12px;
+  }
+
+  .contents-list{
+    margin: 30px;
+    justify-content: none;
+  }
+
+  .contents-list li{
+    width: 90%;
+    flex: auto auto 100%;
+    margin-bottom: 30px;
+  }
+
+  .contents-list p{
+    padding-left: 5px;
+    font-size: 14px;
+  }
+
+  /*コラムページ*/
+  .container-colum{
+    padding: 100px 20px;
+  }
+
+  .container-colum-title h1{
+    font-size: 20px;
+  }
+
+  .container-colum-title h3{
+    font-size: 11px;
+    margin: 0;
+    line-height: 15px;
+  }
+
+  .container-colum-title p{
+    font-size: 9px;
+  }
+
+  .contents-colum{
+    padding: 20px 0;
+    font-size: 15px;
+  }
+
+  .colum06 .colum-img img{
+    width: 95%;
+    margin: 5px auto;
+  }
+
+  .text{
+    line-height: 22px;
+  }
+
+  .contents-colum img{
+    width: 100%;
+    margin: 15px auto;
+  }
+
+  .colum-backdata{
+    line-height: 30px;
+    font-size: 13px;
+  }
+
+  .colum-backdata h3{
+    font-size: 18px;
+  }
+
+  .colum-backdata h5{
+    font-size: 15px;
+    padding-top: 10px;
+  }
+
+  .colum-backdata p{
+    line-height: 17px;
+  }
+
+  .colum-backdata span{
+    font-size: 12px;
+    word-wrap: break-word;
+  }
+
+  .header_wrapper{
+    max-width: 670px;
+  }
+
+}
